@@ -8,7 +8,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglasscriptore/react-schedule-events.git"
+  },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "douglasscriptore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/douglasscriptore/react-schedule-events/issues"
+  },
+  "homepage": "https://github.com/douglasscriptore/react-schedule-events#readme"
 }
