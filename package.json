@@ -1,0 +1,14 @@
+{
+  "name": "react-schedule-events",
+  "version": "1.0.0",
+  "description": "React Schedule Events for your aplication (IN DEVELOPMENT)",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
