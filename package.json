@@ -1,6 +1,6 @@
 {
   "name": "react-schedule-events",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Schedule Events for your aplication (IN DEVELOPMENT)",
   "main": "dist/index.js",
   "dependencies": {},
