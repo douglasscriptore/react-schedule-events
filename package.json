@@ -3,27 +3,55 @@
   "version": "1.0.1",
   "description": "React Schedule Events for your aplication (IN DEVELOPMENT)",
   "main": "dist/index.js",
-  "dependencies": {},
   "peerDependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^6.3.6",
+    "@storybook/addon-essentials": "^6.3.6",
+    "@storybook/addon-links": "^6.3.6",
+    "@storybook/preset-scss": "^1.0.3",
+    "@storybook/react": "^6.3.6",
     "@types/react": "^17.0.15",
     "@types/react-dom": "^17.0.9",
+    "@typescript-eslint/eslint-plugin": "^4.29.0",
+    "@typescript-eslint/parser": "^4.29.0",
     "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
     "babel-runtime": "^6.26.0",
+    "css-loader": "5.2.7",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-import-helpers": "^1.1.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.3.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "rollup": "^2.56.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-sass": "^1.2.2",
     "rollup-plugin-typescript2": "^0.30.0",
+    "sass": "^1.37.5",
+    "sass-loader": "10.1.1",
+    "style-loader": "2.0.0",
     "typescript": "^4.3.5"
   },
   "scripts": {
     "build": "rollup -c",
     "start": "rollup -c -w",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src --ext js,ts,tsx --ignore-path .prettierignore",
+    "format": "prettier \"**/*.+(ts|js|tsx)\" --write",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -38,5 +66,8 @@
   "bugs": {
     "url": "https://github.com/douglasscriptore/react-schedule-events/issues"
   },
-  "homepage": "https://github.com/douglasscriptore/react-schedule-events#readme"
+  "homepage": "https://github.com/douglasscriptore/react-schedule-events#readme",
+  "dependencies": {
+    "react-icons": "^4.2.0"
+  }
 }

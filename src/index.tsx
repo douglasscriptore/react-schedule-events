@@ -1,7 +1,4 @@
-import * as React from 'react';
+import Calendar from './Calendar'
+import './styles/global.scss'
 
-const Calendar: React.FC = () => {
-  return <div>Hello</div>;
-}
-
-export default Calendar;
+export default Calendar

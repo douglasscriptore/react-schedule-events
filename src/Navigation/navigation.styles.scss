@@ -1,0 +1,42 @@
+header.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 15px 0;
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 265px;
+    font-size: 22px;
+    span {
+      padding: 0 15px;
+
+      strong {
+        font-weight: 60px;
+      }
+    }
+    button {
+      svg {
+        font-size: 20px;
+      }
+    }
+  }
+
+  div.mode {
+    button {
+      font-weight: bold;
+      font-size: 16px;
+      margin: 0 15px;
+
+      &.active {
+        color: red;
+      }
+
+      &:last-of-type {
+        margin: 0 0 0 15px;
+      }
+    }
+  }
+}
